@@ -1,4 +1,4 @@
-# Universal-Embeddings
+# Air Pollution Neural Network
 
 This project uses a linear component analysis called PCA and an artificial neural network called autoencoder to create a model that finds deep relationships with pollutants and a second factor. PCA works by trying to shrink the dimensions of the data as small as possible while still maintaining a certain relationship between the data. Autoencoding works by also shrinking the data, but then trying to rebuild it back up. If the relationship the neural network creates during the shrinking is strong enough it will rebuild the data to an almost perfect copy of the original just using that relationship. Then it can use that shrunken data to find relationships with new data. 
 
